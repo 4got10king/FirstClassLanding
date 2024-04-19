@@ -1,28 +1,26 @@
-1. Скачаваем и устанвливаем python: https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
+1. РЎРєР°С‡Р°РІР°РµРј Рё СѓСЃС‚Р°РЅРІР»РёРІР°РµРј python: https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
    
-2. Открываем cmd и переходим в дерикторию как показано на примере -> C:\Users\Иван\Documents\GitHub\First-Class-Landing\FirstClass\django_docker>
+2. РћС‚РєСЂС‹РІР°РµРј cmd Рё РїРµСЂРµС…РѕРґРёРј РІ РґРµСЂРёРєС‚РѕСЂРёСЋ РєР°Рє РїРѕРєР°Р·Р°РЅРѕ РЅР° РїСЂРёРјРµСЂРµ -> C:\Users\РРІР°РЅ\Documents\GitHub\First-Class-Landing\FirstClass\django_docker>
 
-3. Ставим виртуальное окружение командой: py -m venv venv
+3. РЎС‚Р°РІРёРј РІРёСЂС‚СѓР°Р»СЊРЅРѕРµ РѕРєСЂСѓР¶РµРЅРёРµ РєРѕРјР°РЅРґРѕР№: py -m venv venv
 
-4. Далее переходим по этим путям:
-   C:\Users\Иван\Documents\GitHub\First-Class-Landing\FirstClass\django_docker>cd venv
-   C:\Users\Иван\Documents\GitHub\First-Class-Landing\FirstClass\django_docker\venv>cd Scripts
-   C:\Users\Иван\Documents\GitHub\First-Class-Landing\FirstClass\django_docker\venv\Scripts>activate
+4. Р”Р°Р»РµРµ РїРµСЂРµС…РѕРґРёРј РїРѕ СЌС‚РёРј РїСѓС‚СЏРј:
+   C:\Users\РРІР°РЅ\Documents\GitHub\First-Class-Landing\FirstClass\django_docker>cd venv
+   C:\Users\РРІР°РЅ\Documents\GitHub\First-Class-Landing\FirstClass\django_docker\venv>cd Scripts
+   C:\Users\РРІР°РЅ\Documents\GitHub\First-Class-Landing\FirstClass\django_docker\venv\Scripts>activate
 
-5. Должна появиться преписка (venv). для этого пишем source activate (если в gitbash)
+5. Р”РѕР»Р¶РЅР° РїРѕСЏРІРёС‚СЊСЃСЏ РїСЂРµРїРёСЃРєР° (venv). РґР»СЏ СЌС‚РѕРіРѕ РїРёС€РµРј source activate (РµСЃР»Рё РІ gitbash)
 
-6. Далее с помощью двух cd.. возвращаемся до директроии django_docker
+6. Р”Р°Р»РµРµ СЃ РїРѕРјРѕС‰СЊСЋ РґРІСѓС… cd.. РІРѕР·РІСЂР°С‰Р°РµРјСЃСЏ РґРѕ РґРёСЂРµРєС‚СЂРѕРёРё django_docker
 
-7. В этой директории вводим: pip install -r req.txt
-   Вот так: (venv) C:\Users\Иван\Documents\GitHub\First-Class-Landing\FirstClass\django_docker>pip install -r req.txt
-   Должна начаться установка зависимостей в виртуальное окружение.
+7. Р’ СЌС‚РѕР№ РґРёСЂРµРєС‚РѕСЂРёРё РІРІРѕРґРёРј: pip install -r req.txt
+   Р’РѕС‚ С‚Р°Рє: (venv) C:\Users\РРІР°РЅ\Documents\GitHub\First-Class-Landing\FirstClass\django_docker>pip install -r req.txt
+   Р”РѕР»Р¶РЅР° РЅР°С‡Р°С‚СЊСЃСЏ СѓСЃС‚Р°РЅРѕРІРєР° Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№ РІ РІРёСЂС‚СѓР°Р»СЊРЅРѕРµ РѕРєСЂСѓР¶РµРЅРёРµ.
 
-8. Далее нужно скачать и установить базу данных Postgresql: https://sbp.enterprisedb.com/getfile.jsp?fileid=1258899
+8. Р”Р°Р»РµРµ РЅСѓР¶РЅРѕ СЃРєР°С‡Р°С‚СЊ Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Р±Р°Р·Сѓ РґР°РЅРЅС‹С… Postgresql: https://sbp.enterprisedb.com/getfile.jsp?fileid=1258899
 
-9. В установке убраем галочку pgAdmin 4 и StackBuilder
+9. Р’ СѓСЃС‚Р°РЅРѕРІРєРµ СѓР±СЂР°РµРј РіР°Р»РѕС‡РєСѓ pgAdmin 4 Рё StackBuilder
 
-10. Далее в cmd в директории django_docker вводим: git 
-    И ура сервер должен запуститься, можете проверить перейдя по ссылке http://127.0.0.1:8000/enquires/
-    Должна открыться странца с тем самым POST запросом.
-
-    На фронте когда сделаете форму, запрос отправлять на http://127.0.0.1:8000/enquires/
+10. Р”Р°Р»РµРµ РІ cmd РІ РґРёСЂРµРєС‚РѕСЂРёРё django_docker РІРІРѕРґРёРј: git 
+    Р СѓСЂР° СЃРµСЂРІРµСЂ РґРѕР»Р¶РµРЅ Р·Р°РїСѓСЃС‚РёС‚СЊСЃСЏ, РјРѕР¶РµС‚Рµ РїСЂРѕРІРµСЂРёС‚СЊ РїРµСЂРµР№РґСЏ РїРѕ СЃСЃС‹Р»РєРµ http://127.0.0.1:8000/enquires/
+    Р”РѕР»Р¶РЅР° РѕС‚РєСЂС‹С‚СЊСЃСЏ СЃС‚СЂР°РЅС†Р° СЃ С‚РµРј СЃР°РјС‹Рј POST Р·Р°РїСЂРѕСЃРѕРј.

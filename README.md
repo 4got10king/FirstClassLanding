@@ -1,4 +1,3 @@
 # FirstClassLanding
-# FirstClassLanding
-# FirstClassLanding
-# FirstClassLanding
+
+Учебный лендинг, для хакатона
